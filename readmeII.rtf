@@ -1,0 +1,19 @@
+ CMPT 354 - Assignment 3a
+
+Jason Soliman | 301218953 | jsoliman@sfu.ca
+
+
+
+## Overview
+
+Both parts were made and run on Python 2.7.12 in CSIL. A python package PyMySQL was imported to retrieve data from the CSIL SQL server.
+All programs connect to my own personal account on cypress, and are already included in the code.
+The database "AdventureWorks" in CSIL's SQL server is used for both programs.
+
+
+
+## Part 2. Stored Procedures/Functions.
+
+This program contains a function called AverageCost, which is a user-defined function using SQL Server. It takes a string input colour and executes a query that selects the average of all the prices of products in AdventureWorks.
+The result is the average cost of the products that are the colour of the parameter given.
+The function is called with the parameter 'Red', and prints to shell the average StandardCost of red products in the Product table.
