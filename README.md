@@ -11,7 +11,7 @@ All programs connect to my own personal account on cypress, and are already incl
 The database "AdventureWorks" in CSIL's SQL server is used for both programs.
 
 
-## Part 1. Database Connection (354A3Part1.py)
+## Part 1. Database Connection 
 
 This program imports PyMySQL and connects to cypress using my own account. A cursor is created and an SQL query is executed, selecting the total count of customers in AdventureWorks.
 The count, now in a table with 1 row/1 column, is printed to the user. There is no user input needed; only a run of the .py file.
